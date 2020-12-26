@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="C:\Users\Korisnik\Desktop\final\css\style.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+	<title>Belladona</title>
+</head>
+<body>
+
+
+	<header id="header_book">
+		<div id="book_header">
+			<div id="logo">
+				<p><a href="index.html">BELLADONA</a></p>
+			</div>
+			<nav class="book_list">
+				<ul>
+					<li><a href="wedding_dresses.html">Wedding Dresses</a></li>
+					<li><a href="accessories.html">Accessories </a></li>
+					<li><a href="veils.html">Veils </a></li>
+					<li><a href="petticoat.html">Petticoat</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>		
+	</header>
+	
+	<div id="container">
+		<div class="below_header">
+			<span>Book an appointment</span>
+		</div> 
+	<div class="box_container">		
+			<div class="inputs"> <!-- This was the best approach to this I could think of-->
+				<div>
+					<label for="fname"></label>
+					<input type="text" name="fname" placeholder="Name"	style="text-align: center;">
+					
+					<label for="lname"></label>	
+					<input type="text" name="lname" placeholder="Last Name" style="text-align: center;">		
+				</div>
+				<div>
+					<label for="phone"></label>
+					<input type="tel" name="phone" placeholder="Phone"	style="text-align: center;">
+					
+					<label for="lname"></label>	
+					<input type="email" name="email" placeholder="E-mail" style="text-align: center;">	
+				</div>
+				<div class="rectangle"></div>
+				<div>
+					<label class="first_label" for="appointment_date">Pick a date for your appointment</label>
+					<input type="number" name="day" placeholder="Day"	style="text-align: center;" min="1" max="31">
+					
+					<label for="appointment_date"></label>	
+					<input type="number" name="month" placeholder="Month" style="text-align: center;" min="1" max="12">
+					
+					<label for="appointment_date"></label>
+					<input type="number" name="year" placeholder="Year" style="text-align: center;" min="2021" max="2045">
+				</div>
+				<div>
+					<label class="second_label" for="appointment_date">Day of your wedding</label>
+					<input type="number" name="day" placeholder="Day"  style="text-align: center;" min="1" max="31">											
+					<label for="appointment_date"></label>	
+					<input type="number" name="month" placeholder="Month" style="text-align: center;" min="1" max="12">
+					
+					<label for="appointment_date"></label>
+					<input type="number" name="year" placeholder="Year" style="text-align: center;" min="2021" max="2045">
+				</div>
+				<div>
+					<input type="submit" name="submt">\
+				</div>
+				<div class="rectangle_bottom"></div> <!-- this rectangle was my last resort to fix the issue-->
+		</div>
+	</div>
+	
+
+	<footer>
+			<div class="logo_footer">
+				<p>Belladona</p>
+			</div>
+			<div class="middle">
+				<ul>
+					<a href="#"><li class="first">FAQ</li></a>
+					<a href="#"><li>Privacy Policy</li></a>
+					<a href="#"><li>Contact</li></a>
+				</ul>
+			</div>
+			<div class="icons">
+				<a href="#"><img class="fb" src="C:\Users\Korisnik\Desktop\invison diz\Footer\fb.png" alt="facebook"></a>
+				<a href="#"><img class="ig" src="C:\Users\Korisnik\Desktop\invison diz\Footer\instagram.png" alt="instagram"></a>
+				<a href="#"><img class="tw" src="C:\Users\Korisnik\Desktop\invison diz\Footer\twitter.png" alt="twitter"></a>
+				<a href="#"><img class="pin" src="C:\Users\Korisnik\Desktop\invison diz\Footer\pinterest.png" alt="pinterest"></a>			
+			</div>
+	</footer>
+
+</body>
+</html>

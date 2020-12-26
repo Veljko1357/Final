@@ -1,0 +1,906 @@
+/*home*/
+
+header{
+	background-color: #000000;
+	position: relative;	
+	height: 137px;
+	overflow: hidden;
+}
+
+body {
+	background-color: #e6e6e6;
+	margin: 0;
+	height: 100%;
+}
+
+.logo{
+	color: white;
+	text-align: center;
+	font-family: felix titling;
+	width: 100%;
+	margin-top: -27px;
+	top: 89px;
+
+
+	
+}
+
+.logo h1{
+	font-size: 40px;
+
+}
+
+.logo h1::first-letter{
+	font-size: 115%;
+}
+
+.top_left{
+	position: absolute;
+	height: 14px;
+	top: 5px;
+	left: 0;
+	font-family: bell mt;
+	list-style-type: none;
+
+}
+
+.book a:link, a:hover, a:visited, a:active, a:focus{
+	color: #D0D0B9;
+}
+
+
+
+.logo a:visited, a:hover, a:active, a:focus, a:link {
+	color: white;
+	text-decoration: none;
+
+}
+
+#main_nav {
+	background-color: #000000;
+	position: relative;
+	
+	height: 37px;
+	
+	color: white;
+
+	
+}
+
+.bottom ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	margin-right: 215px;
+	margin-left: 386px;
+	margin-top: -10px;
+	font-family: bell mt;
+
+
+}
+
+.bottom ul li a:link, a:hover, a:visited, a:active, a:focus {
+	color: #D0D0B9;
+	text-decoration: none;
+}
+
+.bottom ul li{
+	flex: 2;
+	margin: 1em 0;
+
+}
+
+
+/*body of home page starts here*/
+
+#body{
+	background-color: #e6e6e6;
+	
+
+}
+
+.text ul{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 177px;
+	margin-top: 138px;
+	margin-right: 198px;
+	font-size: 30px;
+	font-family: bell mt;
+}
+
+.veils {
+	margin-right: 27px;
+}
+
+.hero img{
+	border: 2px solid #FFCC33;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 144px;
+	margin-right: 110px;
+	margin-top: 54px;
+}
+
+.accessories {
+	margin-left: -5%;
+}
+
+.bot ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	text-align: center;
+	margin-left: 160px;
+	margin-right: 124px;
+	margin-top: 17px;
+	justify-content: space-between;
+	font-size: 30px;
+	font-family: bell mt;
+	padding-bottom: 61px;
+}
+
+/*footer starts here*/
+
+footer {
+	background-color: #777777;
+	margin-top: -30px;
+	position: static;
+	height: 75px;
+	margin-bottom: 0;
+	overflow: hidden;
+	height: 100%;
+}
+
+
+.logo_footer {
+	margin-top: -3px;
+	float: left;
+	margin-left: 30px;
+
+}
+
+.logo_footer p {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-top: 18px;
+	
+}
+
+.logo_footer p::first-letter{
+	font-size: 115%;
+}
+
+.middle ul {
+	
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+/*end of home page*/
+
+footer ul li {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-left: 1px solid black;
+	height: 60%;
+	line-height: 90%;
+	margin-top: 7.75px;
+}
+
+.first{ /*first-child wouldn't work, had to add a class to it*/
+	border-left: none;
+}
+
+.icons{
+	display: inline-block;
+	text-align: right;
+	position: absolute;
+	margin-top: -41px;
+	padding-right: 30px;
+
+}
+
+.fb {
+	width: 2%;
+	padding-right: 35px;
+}
+
+.ig {
+	width: 2%;
+	padding-right: 35px;
+}
+
+.tw {
+	width: 2%;
+	padding-right: 35px;
+}
+
+.pin {
+	width: 2%;
+}
+
+/*Wedding Dresses*/
+
+
+#wedding_text {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	margin-right: 829px;
+	margin-left: 10px;
+	font-family: Bell mt;
+
+}
+
+.wedding_text_left {
+	text-align: center;
+	margin-right: 742px;
+	margin-left: 10px;
+	height: 142px;
+	width: 150%;
+	margin-top: 118px;
+	position: relative;
+
+	
+
+}
+
+.wedding_text_left p:first-child {
+	font-size: 35px;
+	margin-top: 2px;
+	
+
+
+}
+
+.wedding_text_left p:last-child {
+	margin-top: -35px;
+	margin-left: 2px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.wedding_text_right{
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 696px;
+	
+}
+
+.wedding_text_right p:first-child{
+	font-size: 35px;
+
+}
+
+.wedding_text_right p:last-child{
+	margin-top: -35px;
+	font-size: 20px;
+}
+
+#new_collection_image {
+	margin-left:330px;
+	margin-right: 1266px;
+	margin-top: -135px;
+	margin-bottom: 97px;
+}
+
+
+.nc1{
+	width: 360px;
+	height: 825px;
+	border: 2px solid #FFCC33;
+}
+
+#wedding_dress_images {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 200px;
+	margin-top: -930px;
+	margin-left: 1098px;
+	margin-right: 71px;
+}
+
+#wedding_dress_images2{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 200px;
+	margin-top: -82px;
+	margin-left: 1098px;
+	margin-right: 71px;
+}
+
+
+
+
+.img1{
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.img2 {
+
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.img3 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+ .img4  {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+.img5 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.img6 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+
+
+
+/*Accessories tab starts here*/
+
+#accessories {
+	text-align: center;
+	margin-left: 63px;
+	margin-right: 1272px;
+	margin-bottom:599px;
+	margin-top: 363px;
+	font-family: Bell mt;
+}
+
+#accessories p:first-child{
+ 	font-size: 35px;
+ 	margin-right: 46px;
+
+}
+
+#accessories p:last-child{
+	font-size: 20px;
+	padding-top: 20px;
+	margin-right: 44px;
+}
+
+#accessories_images{
+	margin-top: -1081px;
+	margin-left: 691px;
+
+}
+
+#accessories_images1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	margin-right: 95px;
+}
+
+#accessories_images2 {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 95px;
+	margin-bottom: 130px;
+
+}
+
+.acc_img1 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.acc_img2 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.acc_img3 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.acc_img4 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.acc_img5 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.acc_img6 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+/*veil tab starts here*/
+
+#veils {
+	text-align: center;
+	margin-left: 63px;
+	margin-right: 1272px;
+	margin-bottom:599px;
+	margin-top: 363px;
+	font-family: Bell mt;
+}
+
+#veils p:first-child{
+ 	font-size: 35px;
+ 	margin-right: 46px;
+
+}
+
+#veils p:last-child{
+	font-size: 20px;
+	padding-top: 20px;
+	margin-right: 44px;
+}
+
+#veils_images{
+	margin-top: -1081px;
+	margin-left: 691px;
+
+}
+
+#veils_images1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	margin-right: 95px;
+}
+
+#veils_images2 {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 95px;
+	margin-bottom: 130px;
+
+}
+
+
+.veil_img1 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.veil_img2 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.veil_img3 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.veil_img4 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.veil_img5 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.veil_img6 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+
+/*petticoat tab starts here*/
+
+
+#petticoat {
+	text-align: center;
+	margin-left: 63px;
+	margin-right: 1272px;
+	margin-bottom:599px;
+	margin-top: 363px;
+	font-family: Bell mt;
+}
+
+#petticoat p:first-child{
+ 	font-size: 35px;
+ 	margin-right: 46px;
+
+}
+
+#petticoat p:last-child{
+	font-size: 20px;
+	padding-top: 20px;
+	margin-right: 6px;
+}
+
+#petticoat_images{
+	margin-top: -1081px;
+	margin-left: 691px;
+
+}
+
+#pett_images1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	margin-right: 95px;
+}
+
+#pett_images2 {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 95px;
+	margin-bottom: 130px;
+
+}
+
+
+.pett_img1 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.pett_img2 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.pett_img3 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.pett_img4 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.pett_img5 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+.pett_img6 {
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;
+}
+
+/*new collection tab starts here*/
+
+
+#new_collection {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -37px;
+	margin-bottom: 60px;
+	font-family: felix titling;
+	font-size: 45px;
+
+}
+
+#new_collection3{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 117px;
+	margin-left: 145px;
+	margin-right: 145px;
+
+}
+
+
+
+
+.nc_first{
+	object-fit: cover;
+	object-position: 54% 10%; 
+	margin-top: 109px;
+	border: 2px solid #FFCC33;
+		
+}
+
+.nc_second{
+	object-fit: cover;
+	object-position: 54% 10%; 
+	border: 2px solid #FFCC33;	
+	
+}
+
+.nc_third{
+	object-fit: cover;
+	object-position: 54% 10%;
+	margin-top: 109px; 
+	border: 2px solid #FFCC33;
+}
+
+
+
+
+/*contact*/
+
+
+#contact {
+	margin-left: 25px;
+	margin-top: 215px;
+	font-family: Arial;
+
+
+}
+
+
+.contact_us{
+	font-size: 30px;
+
+}
+
+.location p:first-child, .phone p:first-child, .email p:first-child{
+	font-size: 25px;
+}
+
+.location p:last-child, .phone p:last-child, .email p:last-child{
+	font-size: 20px;
+
+}
+#map{
+	margin-top: -470px;
+    margin-left: 987px;
+    margin-bottom: 273px;
+}
+
+
+#map img {
+	object-fit: cover;
+	object-position: 54% 10%; 
+}
+
+/*book an appointment tab starts here*/
+
+
+#header_book{
+	background-color: #ececec;	
+	height: 79px;
+}
+
+#book_header{
+	height: 39px;
+	text-decoration-color: black;
+}
+
+
+#logo{
+	text-align: left;
+	font-size: 50px;
+	margin-top: -45px;
+	margin-left: 77px;
+
+}
+#logo p::first-letter{
+	font-size: 55px;
+}
+
+#logo p a {
+	color: black;
+}
+
+.book_list ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 850px;
+    margin-right: 200px;
+    margin-top: -89px;
+}
+
+
+
+.book_list ul li a{
+	color: black;
+
+}
+
+.book_list ul li:first-child{
+	margin-left: -173px;
+}
+
+.book_list ul li:nth-child(2){
+	margin-left: -25px;
+}
+.book_list ul li:nth-child(5){
+	margin-right: -95px;
+}
+
+
+.appointment {
+	margin-left: 130px;	
+
+}
+
+.appointment p{
+	font-size: 50px
+
+}
+
+
+#container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+.below_header {
+	background-color: #e0e0e0;
+	margin-left: -15px;
+	padding-left: 135px;
+	font-size: 44px;
+	color: white;
+	height: 79px;
+
+}
+
+.below_header span{
+	position: absolute;
+	margin-top: 18px;
+}
+
+
+
+.box_container{
+	height: 700px;
+	background-color: #ececec;
+	margin-left: 85px;
+	margin-top: 30px;
+	margin-right: 116px;
+	border: 1px solid black;
+}
+
+.inputs{
+	padding-top: 62px;
+	margin-right: 85px;
+	margin-left: 33px;
+
+}
+
+.inputs div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
+
+}
+
+.inputs div input{
+	height: 35px;
+	width: 40%;
+	border: 1px solid #FFCC33;
+	border-radius: 11px;
+}
+
+
+.inputs div input::placeholder{
+	color: black;
+
+}
+
+.inputs div:nth-child(2){
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.rectangle{
+	width: 100%;
+	height: 10px;
+	background-color: white;
+	margin-left: 24px;
+	margin-top: 95px;
+}
+
+.inputs div:nth-child(4){
+	display: flex;
+	flex-direction: column;
+	margin-left: 59.5px;
+	width: 100%;
+}
+
+.inputs div:nth-child(4) input{
+	height: 50px;
+}
+
+.first_label{
+	padding-bottom: 5px;
+}
+
+.inputs div:nth-child(5){
+	display: flex;
+	flex-direction: column;
+	margin-top: -239px;
+	margin-left: 541px;
+	width: 907px;
+}
+
+.inputs div label{
+	font-size: 20px;
+	padding-left: 16px;
+
+}
+
+.inputs div:nth-child(5) input{
+	height: 50px;
+}
+
+.second_label{
+	padding-bottom: 5px;
+}
+
+
+.inputs div:nth-child(6){
+	margin-left: 399px;
+	margin-top: 80px;
+}
+
+.inputs div:nth-child(6) input{
+	background-color: #c8c8c8;
+	border: none;
+	border-radius: 0;
+	font-size: 25px;
+	height: 29px;
+	width: 160px;
+}
+
+
+
+.rectangle_bottom{ /*body was connected to footer for some unkonwn reason so I had to use a bordered rectangle as a whitespace */
+	width: 113.2%;
+	height: 10px;
+	background-color: white;
+	border-top: 1px solid black;
+	margin-top: -30px;
+	margin-left: -34px;
+}
+
+
+
